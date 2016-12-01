@@ -6,10 +6,9 @@
  * @version 1.0
  */
 
-#include <ostream>
-
-using namespace std;
+#include <iostream>
 
 int main(int argc, char** argv) {
+	std::cout << "Hello Template" << std::endl;
 	return 1;
 }
