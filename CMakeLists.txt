@@ -14,12 +14,12 @@ cmake_minimum_required (VERSION 3.0.2)
 project(Template VERSION 1.0 LANGUAGES C CXX)
 
 # Store all C/C++ source files into the PROJECT_SOURCE_FILES variable.
-# This will recursively search under all directories within ./src.
+# This will recursively search under all directories within ./source.
 file(GLOB_RECURSE PROJECT_SOURCE_FILES
-	"${PROJECT_SOURCE_DIR}/src/*.c"
-	"${PROJECT_SOURCE_DIR}/src/*.cc"
-	"${PROJECT_SOURCE_DIR}/src/*.cxx"
-	"${PROJECT_SOURCE_DIR}/src/*.cpp"
+	"${PROJECT_SOURCE_DIR}/source/*.c"
+	"${PROJECT_SOURCE_DIR}/source/*.cc"
+	"${PROJECT_SOURCE_DIR}/source/*.cxx"
+	"${PROJECT_SOURCE_DIR}/source/*.cpp"
 )
 
 # Store all C/C++ header files into the PROJECT_HEADER_FILES variable.
